@@ -1,0 +1,37 @@
+.whoFollow__container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.whoFollow__container .profile__infos {
+    margin-left: 15px;
+}
+
+.whoFollow__container .profile__infos h5 {
+    font-size: 16px;
+}
+
+.whoFollow__container .profile__infos p {
+    font-size: 12px;
+    color: gray;
+}
+
+.whoFollow__followButton {
+    background-color: #fff !important;
+    color: var(--twitter-color) !important;
+    font-weight: 900 !important;
+    text-transform: inherit !important;
+    border-radius: 30px !important;
+    width: 80px;
+    height: 40px !important;
+    margin-left: auto !important;
+    border: 1px solid var(--twitter-color) !important;
+}
+
+.whoFollow__followButton:hover {
+    background-color: var(--twitter-color) !important;
+    color: #FFF !important;
+    transition: all 100ms;
+}
